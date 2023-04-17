@@ -1,0 +1,106 @@
+/* <!-- Feel free to remove these styles or customise in your own stylesheet 👍
+<style>
+  .attribution { font-size: 11px; text-align: center; }
+</style> --> */
+
+/* ----------------- Main ----------------------- */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color1: hsl(228, 45%, 44%);
+    --color2: hsl(257, 40%, 49%);
+    --color3: hsl(300, 69%, 71%);
+}
+
+body {
+    background-color: var(--color2);
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0; 
+}
+
+.main {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.btn {
+    margin-top: 10px;
+    padding: 10px 42px;
+    border-radius: 20px;
+}
+
+/* ----------------- Desktop ----------------------- */
+@media screen and (min-width:1180px) {
+
+    body {
+        background-image: url("/images/bg-desktop.svg");
+        background-size:cover;
+    }
+    
+    footer{
+        padding-left: 90vw;
+        padding-bottom: 2vh;
+    }
+
+    .main-child {
+        width: 50%;
+        float: left;
+        padding: 10px;
+    }
+    
+    .title {
+        margin-right: 20vw;
+        margin-bottom: 2vh;
+    }
+
+    .text {
+        font-size: 19px;
+        font-weight: 400;
+        margin-right: 20vw;
+    }
+}
+
+
+/* ----------------- Mobile ----------------------- */
+
+@media screen and (min-width:350px) and (max-width:1180px) {
+    
+    body {
+        background-image: url("/images/bg-mobile.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    header{
+        display: block;
+        margin-left: auto;
+        margin-right: right;
+    }
+
+    .main-child {
+        width: 100%;
+        text-align: center;
+    }
+}
