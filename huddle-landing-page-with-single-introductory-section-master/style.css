@@ -115,18 +115,18 @@ footer {
     .main-child2 {
         width: 50%;
         float: left;
-        padding: 0px;
+        padding-left: 2vw;
     }
     
     .title {
-        margin-right: 20vw;
+        margin-right: 13vw;
         margin-bottom: 2vh;
     }
 
     .text {
         font-size: 19px;
         font-weight: 400;
-        margin-right: 15vw;
+        margin-right: 13vw;
     }
 }
 
