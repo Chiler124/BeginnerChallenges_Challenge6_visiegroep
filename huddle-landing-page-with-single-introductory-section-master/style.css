@@ -51,6 +51,12 @@ footer {
     border-radius: 20px;
 }
 
+.btn:hover {
+    color: white;
+    background-color: var(--color3);
+    cursor:pointer;
+}
+
 .facebook {
     filter: invert(100%) sepia(99%) saturate(2%) hue-rotate(359deg) brightness(111%) contrast(101%);
 }
