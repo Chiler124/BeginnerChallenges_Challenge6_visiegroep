@@ -91,13 +91,14 @@ footer {
 @media screen and (min-width:1180px) {
 
     body {
-        background-image: url("/images/bg-desktop.svg");
+        background-image: url("./images/bg-desktop.svg");
         background-size:cover;
     }
     
     footer{
-        padding-left: 90vw;
-        padding-bottom: 2vh;
+        text-align: right;
+        padding-right: 2vw;
+        padding-bottom: 3vh;
     }
 
     .image1 {
@@ -135,7 +136,7 @@ footer {
 @media screen and (min-width:350px) and (max-width:1180px) {
     
     body {
-        background-image: url("/images/bg-mobile.svg");
+        background-image: url("./images/bg-mobile.svg");
         background-size: contain;
         background-repeat: no-repeat;
     }
@@ -163,6 +164,17 @@ footer {
 
     .main-child2 {
         width: 100%;
+        text-align: center;
+        padding-top: 5vh;
+    }
+
+    .title {
+        font-size: 30px;
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
+
+    footer{
         text-align: center;
     }
 }
