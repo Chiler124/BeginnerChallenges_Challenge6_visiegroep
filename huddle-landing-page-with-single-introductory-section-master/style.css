@@ -34,8 +34,6 @@ header {
 .main {
     padding-top: 20vh;
     padding-bottom: 10vh;
-    padding-left: 5vw;
-   
 }
 
 footer {
@@ -45,8 +43,17 @@ footer {
 }
 
 .title {
-    font-size: 48px;
     font-weight: 600;
+    margin-bottom: 2vh;
+}
+
+.image1 {
+    max-width: 100%;
+    height: auto;
+}
+
+.text {
+    margin-bottom: 2vh;
 }
 
 .btn {
@@ -107,11 +114,9 @@ footer {
         padding-bottom: 3vh;
     }
 
-    .image1 {
-        max-width: 100%;
-        height: auto;
+    .main {
+        padding-left: 5vw;
     }
-
     .main-child1 {
         width: 50%;
         float: left;
@@ -125,15 +130,15 @@ footer {
     }
     
     .title {
+        font-size: 48px;
         margin-right: 13vw;
-        margin-bottom: 2vh;
     }
 
     .text {
         font-size: 19px;
         font-weight: 400;
         margin-right: 13vw;
-        margin-bottom: 2vh;
+
     }
 }
 
@@ -152,11 +157,6 @@ footer {
         display: block;
         margin-left: auto;
         margin-right: right;
-    }
-
-    .image1 {
-        max-width: 100%;
-        height: auto;
     }
 
     .main {
