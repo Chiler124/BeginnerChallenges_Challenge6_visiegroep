@@ -26,12 +26,16 @@ body {
 header {
     width: 100%;
     position: fixed;
-    top: 0; 
+    top: 0;
+    padding-top: 5vh;
+    padding-left: 5vw; 
 }
 
 .main {
-    padding-top: 10vh;
+    padding-top: 20vh;
     padding-bottom: 10vh;
+    padding-left: 5vw;
+   
 }
 
 footer {
@@ -96,10 +100,21 @@ footer {
         padding-bottom: 2vh;
     }
 
-    .main-child {
+    .image1 {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .main-child1 {
         width: 50%;
         float: left;
         padding: 10px;
+    }
+
+    .main-child2 {
+        width: 50%;
+        float: left;
+        padding: 0px;
     }
     
     .title {
@@ -110,7 +125,7 @@ footer {
     .text {
         font-size: 19px;
         font-weight: 400;
-        margin-right: 20vw;
+        margin-right: 15vw;
     }
 }
 
@@ -131,7 +146,22 @@ footer {
         margin-right: right;
     }
 
-    .main-child {
+    .image1 {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .main {
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+
+    .main-child1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .main-child2 {
         width: 100%;
         text-align: center;
     }
