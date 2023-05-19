@@ -62,6 +62,8 @@ footer {
 }
 
 .facebook {
+    margin-left: 5px;
+    margin-right: 5px;
     filter: invert(100%) sepia(99%) saturate(2%) hue-rotate(359deg) brightness(111%) contrast(101%);
 }
 
@@ -71,6 +73,8 @@ footer {
 }
 
 .twitter {
+    margin-left: 5px;
+    margin-right: 5px;
     filter: invert(100%) sepia(99%) saturate(2%) hue-rotate(359deg) brightness(111%) contrast(101%);
 }
 
@@ -80,6 +84,8 @@ footer {
 }
 
 .instagram {
+    margin-left: 5px;
+    margin-right: 5px;
     filter: invert(100%) sepia(99%) saturate(2%) hue-rotate(359deg) brightness(111%) contrast(101%);
 }
 
@@ -127,6 +133,7 @@ footer {
         font-size: 19px;
         font-weight: 400;
         margin-right: 13vw;
+        margin-bottom: 2vh;
     }
 }
 
@@ -170,8 +177,8 @@ footer {
 
     .title {
         font-size: 30px;
-        padding-left: 2vw;
-        padding-right: 2vw;
+        margin-left: 2vw;
+        margin-right: 2vw;
     }
 
     footer{
